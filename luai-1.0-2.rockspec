@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luai"
-version = "1.0-1"
+version = "1.0-2"
 -- LuaDist source
 source = {
-  tag = "1.0-1",
+  tag = "1.0-2",
   url = "git://github.com/LuaDist-testing/luai.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/cschen1205/lua-ai.git",
---    tag = "v1.0.1",
+--    tag = "v1.0.2",
 -- }
 description = {
    summary = "Lua AI Library",
@@ -41,6 +41,8 @@ build = {
       ["luai.samples.GameWeapon"] = "src/samples/GameWeapon.lua",
       ["luai.samples.NBCBot"] = "src/samples/NBCBot.lua",
       ["luai.samples.data"] = "src/samples/data.lua",
+      ["luai.samples.MLPBot"] = "src/samples/MLPBot.lua",
+      ["luai.samples.DecisionTreeBot"] = "src/samples/DecisionTreeBot.lua",
 
    }
 }
